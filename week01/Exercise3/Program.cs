@@ -19,11 +19,11 @@ class Program
 
             if (guess < randomNumber)
             {
-                Console.WriteLine("Too low! Try again.");
+                Console.WriteLine("Higher");
             }
             else if (guess > randomNumber)
             {
-                Console.WriteLine("Too high! Try again.");
+                Console.WriteLine("Lower");
             }
             else
             {
