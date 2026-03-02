@@ -41,7 +41,7 @@ class Program
         }
         else
         {
-            Console.WriteLine("Don't give up! Keep trying.");
+            Console.WriteLine("Never give up! Keep trying.");
         }
     }
 }
