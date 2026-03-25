@@ -13,8 +13,8 @@ class Program
         order1.AddProduct(new Product("Notebook", "P001", 2.50, 4));
         order1.AddProduct(new Product("Pen", "P002", 1.25, 6));
 
-        Address address2 = new Address("10 Bayani Ave.", "Taguig", "Metro Manila", "Philippines");
-        Customer customer2 = new Customer("John Jenly Tirazona", address2);
+        Address address2 = new Address("1 Rosal St.", "Taguig", "Metro Manila", "Philippines");
+        Customer customer2 = new Customer("Jyn Carlos Banaña", address2);
         Order order2 = new Order(customer2);
 
         order2.AddProduct(new Product("Backpack", "P010", 25.00, 1));
